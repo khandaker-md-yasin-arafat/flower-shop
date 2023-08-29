@@ -55,17 +55,18 @@ body{
 }
 
 /* featured styles */
-.featured h3{
+.featured h3, .social-media h3{
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 25px;
     font-weight: 900;
     font-size: 25px;
     color: #272727;
 }
-.featured p{
+.featured p, .social-media p{
     text-align: center;
     color: #27272780;
+    margin-bottom: 25px;
 }
 .featured-img{
     display: flex;
@@ -121,6 +122,16 @@ body{
 .hot-deal-img img{
     width: 250px;
 }
+
+/* social-media styles */
+.social-media{
+    margin-bottom: 100px;
+}
+.social-media-img img{
+    margin: 10px;
+    width: 337px;
+}
+
 /* footer styles */
 .footer{
     background-color: #111010;
