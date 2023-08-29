@@ -1,5 +1,55 @@
-/* common styles */
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+/* reset and common styles */
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.btn-primary{
+    background-color: #E55473;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* header styles */
+.header{
+    background-color: rgba(229, 84, 115,0.1);
+}
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 700px;
+}
+.banner-content{
+
+}
+.banner-content h1{
+    font-size: 65px;
+    color: #272727;
+}
+.banner-content p{
+    width: 630px;
+    line-height: 24px;
+    margin-top: 25px;
+    color: #27272780;
+}
+.banner-content button{
+    margin-top: 25px;
+}
+.banner-img img{
+    width: 518px;
+    margin-top: 50px;
 }
