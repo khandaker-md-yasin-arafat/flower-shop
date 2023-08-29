@@ -1,5 +1,6 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
 /* reset and common styles */
 *{
     margin: 0;
@@ -22,19 +23,18 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
+
 /* header styles */
 .header{
     background-color: rgba(229, 84, 115,0.1);
 }
+
 /* banner styles */
 .banner{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 700px;
-}
-.banner-content{
-
 }
 .banner-content h1{
     font-size: 65px;
@@ -52,4 +52,27 @@ body{
 .banner-img img{
     width: 518px;
     margin-top: 50px;
+}
+
+/* footer styles */
+.footer{
+    background-color: #111010;
+    height: 250px;
+    text-align: center;
+    line-height: 20px;
+}
+.footer h1{
+    color: #FFFFFF;
+    line-height: 100px;
+}
+.footer span{
+    color: #E55473;
+}
+.footer p{
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.footer small{
+    color: #FFFFFF70;
+    
 }
